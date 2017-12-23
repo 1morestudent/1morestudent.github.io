@@ -16,10 +16,10 @@
 title: 1morestudent
 email: 1morestudent@zoho
 description: >- # this means to ignore newlines until "baseurl:"
-  A minimalistic blog about neurosciences, rationality, weird internet 
-  phenomena and other stuff I find interesting. I will mostly use this 
-  for keeping track of various interesting links I find around the web.
-  I also want to practice writing english "in public". If other people
+  A minimalistic blog about neurosciences, rationality, music, weird internet 
+  phenomena and other stuff I find interesting. I will mostly use it 
+  to keep track of various interesting links I find around the web.
+  I also want to practice writing for a broader public in english. If other people
   happen to like what I write about, it would be a nice side effect.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
