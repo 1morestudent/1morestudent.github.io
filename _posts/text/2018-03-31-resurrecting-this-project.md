@@ -3,6 +3,7 @@ layout: post
 title: resurrecting this project
 date: 2018-03-31 23:03:00
 categories: development blogging meta
+type: text
 ---
 
 After what feels like an eternity (especially considering some throughout changes in my personal life) I want to restart working on this blog.  

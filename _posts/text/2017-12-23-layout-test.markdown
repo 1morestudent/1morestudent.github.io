@@ -3,6 +3,7 @@ layout: post
 title:  "just a test post"
 date:   2017-12-23 17:56:11 +0100
 categories: jekyll update
+type: text
 ---
 This post is used to test some formatting and see how posts appear in my blog.
 It is mainly (or, tbh, only) used to see how stuff works, and to realise when I broke something.

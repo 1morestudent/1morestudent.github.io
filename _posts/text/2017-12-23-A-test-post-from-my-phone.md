@@ -3,6 +3,7 @@ layout: post
 title: A test post from my phone
 date: 2017-12-23 18:08:00
 categories: development blogging meta
+type: text
 ---
 
 This is a test post from my android phone, made with [Mr. Hyde](http://faudroids.org/MrHyde/).
