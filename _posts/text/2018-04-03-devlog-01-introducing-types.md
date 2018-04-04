@@ -1,6 +1,6 @@
 ---
 layout: post
-title: devlog01 - introducing types
+title: devlog01 introducing types
 date: 2018-04-03 22:00:00
 categories: development blogging types meta 
 type: text
