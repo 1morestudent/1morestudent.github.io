@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adversarial collaborations in the neurosciences
-date: 2018-04-23 12:00:00
+date: 2018-04-27 12:00:00
 categories: adversarial contributions research methodology
 type: text
 ---

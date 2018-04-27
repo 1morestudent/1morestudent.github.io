@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "devlog_02 - Everything on the front page" 
-date: 2018-04-23 10:00:00
+date: 2018-04-27 10:00:00
 categories: devlog frontpage
 type: text
 ---
