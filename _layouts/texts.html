@@ -5,22 +5,17 @@ layout: default
 <div class="home">
 
   {{ content }}
-<h1> Reading list </h1>
+<h1> Texts </h1>
  
 <div class="post-content" itemprop="articleBody">
-   Here, you can find a list of things (mostly books, but also papers, essays, theses etc.) that I either read or am planning to read. 
-   For those I already worked my way through, there will most likely be a short summary or review. For some, there will (hopefully) be lengthier reviews. </br>
-<ul>
-<li> 
-</ul>
-
+   This page contains longer texts... so none, up till now ^^
   </div>
 
 <hr>
 
   <ul class="post-list">
     {% for post in site.posts %}
-	    {% if post.type contains 'reading' %}
+	    {% if post.type contains 'text' %}
 	      <li>
 	        {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
 	        <span class="post-meta">{{ post.date | date: date_format }}</span>

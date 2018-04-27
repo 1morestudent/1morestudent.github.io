@@ -3,7 +3,7 @@
 # Editing of the theme can be done in _layouts/reading 
 
 layout: reading
-title: Reading List
+title: Reading
 permalink: /reading/
 ---
 
