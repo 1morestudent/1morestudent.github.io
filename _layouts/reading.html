@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+<h1> Reading List </h1>
+ 
+<div class="post-content" itemprop="articleBody">
+   Here, you can find a list of things (mostly books, but also papers, essays, theses etc.) that I either read or am planning to read. 
+   For those I already worked my way through, there will most likely be a short summary or review. For some, there will (hopefully) be lengthier reviews. </br>
+
+
+  </div>
+
+<hr>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+	    {% if post.type contains 'reading' %}
+	      <li>
+	        {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
+	        <span class="post-meta">{{ post.date | date: date_format }}</span>
+	        <div class="post-content" itemprop="articleBody">
+	          {{ post.content }}
+	        </div>
+	        
+	        
+	      </li>
+	    {% endif %} 
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+</div>
