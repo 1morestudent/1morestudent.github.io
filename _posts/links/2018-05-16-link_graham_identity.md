@@ -1,6 +1,6 @@
 ---
 layout: post
-title: neanderthal brain size
+title: graham identity link
 date: 2018-05-17 13:00:00
 categories: links identity graham philosophy
 type: link
