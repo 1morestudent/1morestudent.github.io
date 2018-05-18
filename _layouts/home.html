@@ -8,7 +8,8 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-	   
+
+	   {% if post.type contains 'text' %}
 	      <li>
 	        {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
 	        <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -18,6 +19,16 @@ layout: default
 	        <div class="post-content" itemprop="articleBody">
 	          {{ post.content }}
 	        </div>
+	    {% endif %} 
+
+	    {% if post.type contains 'link' %}
+	      <li>
+	        {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
+	        <span class="post-meta">{{ post.date | date: date_format }}</span>
+	        <div class="post-content" itemprop="articleBody">
+	          {{ post.content }}
+	        </div>
+	    {% endif %} 
 	        
 	        
 	      </li>
